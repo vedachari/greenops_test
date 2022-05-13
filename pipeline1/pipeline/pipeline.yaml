@@ -39,6 +39,7 @@ spec:
             value: "{{workflow.parameters.revision}}"
           - name: argocd-server-address
             value: "{{workflow.parameters.argocd-server-address}}"
-     - - name: second-dummy-step
+    - - name: second-dummy-step
         template: whalesay
     
+
