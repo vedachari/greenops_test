@@ -1,0 +1,12 @@
+arguments:
+  parameters:
+  - name: application-name
+    value: pipeline19-app1
+  - name: application-name-2
+    value: pipeline19-app2
+  - name: revision
+    value: HEAD
+  - name: argocd-server-address
+    value: 192.168.64.7:30286
+  - name: argocd-credentials-secret
+    value: argocd-credentials-secret
